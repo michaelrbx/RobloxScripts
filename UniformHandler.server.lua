@@ -2,7 +2,7 @@
 local Teams = game:GetService("Teams")
 
 -- Teams-- 
-local teamname = Teams.NAME 
+local team1 = Teams.NAME 
 
 -- Other-- 
 plr.CharacterAppearanceLoaded:Connect(function(char) -- Wait until the charcter's clothing has been loaded
@@ -11,9 +11,7 @@ local pants = char:FindFirstChild("Pants") or Instance.new("Pants", char) -- Use
 		
 -- Function-- 
 
-local function playerAdded(team)
-	if team == TEAMNAME then 
-    elseif team == TEAMNAME then    
+local function playerAdded(team1)    
 	end	
 end
 
