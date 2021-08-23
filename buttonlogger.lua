@@ -8,7 +8,7 @@ local url = "" -- webhook
                         author = "Ocean Ferries",
                         title = "Boat Interaction",
                         type = "rich",
-                        description = plr.."has activated a button on the boat",
+                        description = player.."has activated a button on the boat",
                     }
                 }
             }
